@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IoT & Robotics Lab - Projects</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" style="background-color: var(--primary-color);">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+                <img src="images/jec logo QQ-Dqbi7v0M.webp" alt="JEC Logo" class="navbar-logo me-3">
+                <div class="navbar-brand-text">
+                    <div class="brand-main fw-bold">
+                        IoT & Robotics Lab
+                    </div>
+                    <div class="brand-dept">Dept. of Electronics and Telecommunication Engineering</div>
+                    <div class="brand-college">Jabalpur Engineering College</div>
+                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="events.html">Events</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="projects.html">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="news.html">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="equipments.html">Equipments</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="achievements.html">Achievements</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h1 class="display-4 fw-bold text-white mb-3">Our Projects</h1>
+                    <p class="lead text-white opacity-75">Explore our innovative robotics and IoT projects</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="py-5">
+        <div class="container">
+            <!-- Project 1 - Smart Canteen Payment System -->
+            <div class="row mb-5">
+                <div class="col-12">
+                    <div class="project-card">
+                        <div class="row g-0">
+                            <div class="col-lg-6">
+                                <!-- Project Image Carousel -->
+                                <div id="project1Carousel" class="carousel slide project-carousel" data-bs-ride="carousel">
+                                    <div class="carousel-indicators">
+                                        <button type="button" data-bs-target="#project1Carousel" data-bs-slide-to="0" class="active"></button>
+                                        <button type="button" data-bs-target="#project1Carousel" data-bs-slide-to="1"></button>
+                                    </div>
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="images/projects/2-a.jpg" class="d-block w-100 project-image" alt="Smart Canteen Payment System">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="images/projects/2-b.jpg" class="d-block w-100 project-image" alt="Smart Canteen Interface">
+                                        </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#project1Carousel" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon"></span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#project1Carousel" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon"></span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="project-content">
+                                    <div class="project-header">
+                                        <h3 class="project-title">Smart Canteen Payment System</h3>
+                                        <div class="project-meta">
+                                            <div class="project-team mb-2">
+                                                <i class="bi bi-people-fill text-primary me-2"></i>
+                                                <strong>Team:</strong> Yashaj Gupta (EC, 2023-27), Rhythm Agrawal (EC, 2023-27)
+                                            </div>
+                                            <div class="project-equipment mb-3">
+                                                <i class="bi bi-tools text-primary me-2"></i>
+                                                <strong>Equipment:</strong> ESP32 Microcontrollers, QR/ID Scanners, LCD Display, Local SQL/Firebase Database
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="project-abstract">
+                                        <h5 class="mb-3">Project Abstract</h5>
+                                        <p class="text-muted">
+                                            The Smart Canteen Payment System is developed to address the challenges faced in canteens where conventional UPI-based transactions often fail due to poor network connectivity. This project establishes a local offline payment ecosystem that eliminates the dependency on external internet signals.
+                                        </p>
+                                        <p class="text-muted">
+                                            Each student is assigned a unique Student ID card, which acts as a digital wallet linked to their prepaid account. Students can make payments by simply scanning their ID card, after which the transaction is processed and the balance updated in real-time on the server. This approach not only reduces waiting time and eliminates cash handling but also ensures reliable, transparent, and efficient canteen operations even in areas with limited connectivity.
+                                        </p>
+                                        <div class="project-technologies mt-3">
+                                            <h6>Technologies Used:</h6>
+                                            <span class="badge bg-primary me-2">ESP32</span>
+                                            <span class="badge bg-primary me-2">QR Scanning</span>
+                                            <span class="badge bg-primary me-2">SQL Database</span>
+                                            <span class="badge bg-primary me-2">Firebase</span>
+                                            <span class="badge bg-primary me-2">Local Network</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 2 - IoT Based Password Door Locking System -->
+            <div class="row mb-5">
+                <div class="col-12">
+                    <div class="project-card">
+                        <div class="row g-0">
+                            <div class="col-lg-6 order-lg-2">
+                                <!-- Project Image Carousel -->
+                                <div id="project2Carousel" class="carousel slide project-carousel" data-bs-ride="carousel">
+                                    <div class="carousel-indicators">
+                                        <button type="button" data-bs-target="#project2Carousel" data-bs-slide-to="0" class="active"></button>
+                                        <button type="button" data-bs-target="#project2Carousel" data-bs-slide-to="1"></button>
+                                    </div>
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="images/projects/1-a.png" class="d-block w-100 project-image" alt="IoT Password Door Lock">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="images/projects/1-b.png" class="d-block w-100 project-image" alt="Door Lock Components">
+                                        </div>
+                                    </div>
+                                    <button class="carousel-control-prev" type="button" data-bs-target="#project2Carousel" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon"></span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#project2Carousel" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon"></span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 order-lg-1">
+                                <div class="project-content">
+                                    <div class="project-header">
+                                        <h3 class="project-title">IoT Based Password Door Locking System</h3>
+                                        <div class="project-meta">
+                                            <div class="project-team mb-2">
+                                                <i class="bi bi-people-fill text-primary me-2"></i>
+                                                <strong>Team:</strong> Aamodit Saini (EC, 2022-26), Vidhi Awasthi (EC, 2022-26)
+                                            </div>
+                                            <div class="project-equipment mb-3">
+                                                <i class="bi bi-tools text-primary me-2"></i>
+                                                <strong>Equipment:</strong> Arduino Uno, 4x4 Matrix Keypad, SG90 Micro Servo Motor, 16x2 LCD Display, I2C LCD Backpack Module, Buzzer
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="project-abstract">
+                                        <h5 class="mb-3">Project Abstract</h5>
+                                        <p class="text-muted">
+                                            In this project, we used an Arduino and a keypad to create a password-based security system. Thefts and frauds are becoming more common by the day, therefore security is becoming a serious worry. As a result, a smart lock with a digital code can simply secure our home, business, locker, and other valuables.
+                                        </p>
+                                        <p class="text-muted">
+                                            It only unlocks a door when the correct password is supplied. Due to a password-based door lock mechanism, only authorized personnel are permitted access to the restricted areas. The Arduino is in charge of the project's overall operation. A 4×4 keypad can be used to input the necessary password.
+                                        </p>
+                                        <div class="project-technologies mt-3">
+                                            <h6>Technologies Used:</h6>
+                                            <span class="badge bg-primary me-2">Arduino Uno</span>
+                                            <span class="badge bg-primary me-2">Matrix Keypad</span>
+                                            <span class="badge bg-primary me-2">Servo Motor</span>
+                                            <span class="badge bg-primary me-2">LCD Display</span>
+                                            <span class="badge bg-primary me-2">I2C Module</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Call to Action -->
+            <div class="row">
+                <div class="col-12 text-center">
+                    <div class="projects-cta">
+                        <h4 class="mb-3">Interested in Our Projects?</h4>
+                        <p class="text-muted mb-4">Want to learn more about our research or collaborate with us?</p>
+                        <a href="about.html" class="btn btn-primary btn-lg me-3">Contact Us</a>
+                        <a href="index.html" class="btn btn-outline-primary btn-lg">Back to Home</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <h5 class="mb-3">IoT & Robotics Lab</h5>
+                    <p class="text-light">
+                        Jabalpur Engineering College<br>
+                        Fostering innovation in robotics and IoT through hands-on learning and research.
+                    </p>
+                </div>
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <h5 class="mb-3">Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="text-light text-decoration-none">Home</a></li>
+                        <li><a href="events.html" class="text-light text-decoration-none">Events</a></li>
+                        <li><a href="projects.html" class="text-light text-decoration-none">Projects</a></li>
+                        <li><a href="news.html" class="text-light text-decoration-none">News</a></li>
+                        <li><a href="equipments.html" class="text-light text-decoration-none">Lab Equipments</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4">
+                    <h5 class="mb-3">Additional Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="https://www.jecjabalpur.ac.in/" target="_blank" class="text-light text-decoration-none">Institute</a></li>
+                        <li><a href="about.html" class="text-light text-decoration-none">Contact Us</a></li>
+                        <li><a href="about.html" class="text-light text-decoration-none">Team Members</a></li>
+                        <li><a href="https://www.linkedin.com/company/iot-robotics-lab-jec/" target="_blank" class="text-light text-decoration-none">
+                            <i class="bi bi-linkedin me-1"></i>Follow Us on LinkedIn
+                        </a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div class="text-center">
+                <p class="mb-0">&copy; 2025 All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
